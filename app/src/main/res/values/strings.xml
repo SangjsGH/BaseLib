@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BaseLib</string>
+    <string name="dialog_first_one">用户协议与隐私保护</string>
+    <string name="dialog_first_two">欢迎您使用</string>
+    <string name="dialog_first_three">我们非常重视您的个人信息和隐私保护，根据\n相关法律法规要求，在您使用我们产品前，请</string>
+    <string name="dialog_first_four">\n仔细阅读</string>
+    <string name="dialog_first_five">\n《用户协议》</string>
+    <string name="dialog_first_six">\n及</string>
+    <string name="dialog_first_seven">\n《隐私政策》</string>
+    <string name="dialog_first_eight">\n相关条</string>
+    <string name="dialog_first_nine">\n款。在您同意并接受后，将可以正常使用本产</string>
+    <string name="dialog_first_ten">\n品为您提供的全部功能。\n</string>
+    <string name="dialog_first_agree">同意并开始使用</string>
+    <string name="dialog_first_disagree">不同意</string>
+    <string name="talk_something">想说点什么</string>
+    <string name="num_two_hundred">0/200</string>
+    <string name="cancel">取消</string>
+    <string name="input_qsr">请输入..</string>
+    <string name="sure">确定</string>
+
+</resources>

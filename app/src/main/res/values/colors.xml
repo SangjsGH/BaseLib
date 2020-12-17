@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--主题色-->
+    <color name="theme">#FF7536</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!--灰色-->
+    <color name="gray_001">#F8F8F8</color>
+    <color name="gray_002">#EEEEEE</color>
+    <color name="gray_003">#E2E2E2</color>
+    <color name="gray_004">#CCCCCC</color>
+    <color name="gray_005">#999999</color>
+    <color name="gray_006">#9B9B9B</color>
+    <color name="gray_007">#666666</color>
+    <color name="gray_008">#5B5C59</color>
+    <color name="gray_line">#F9F9F9</color>
+    <!--红色-->
+    <color name="red_001">#E73111</color>
+    <!--蓝色-->
+    <color name="blue_001">#A2B1FF</color>
+    <!--橘色-->
+    <color name="orange_001">#D7A994</color>
+    <color name="orange_002">#FF4E4A</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <!--黑色-->
+    <color name="black_001">#333333</color>
+    <color name="black_002">#000000</color>
+    <!--绿色-->
+    <color name="green">#5CB74B</color>
+    <!--粉色-->
+    <color name="pink">#FE608C</color>
+
+</resources>

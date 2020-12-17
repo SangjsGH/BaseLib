@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/shape_background_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"/>
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="20dp"
+        android:maxLines="1"
+        android:gravity="center"
+        android:hint="@string/input_qsr"
+        android:textSize="15sp"/>
+
+    <View style="@style/line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_toStartOf="@+id/vi_tag"
+            android:layout_centerVertical="true"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"/>
+
+        <View
+            android:id="@+id/vi_tag"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line"/>
+        <TextView
+            android:id="@+id/tv_sure"
+            android:layout_toEndOf="@+id/vi_tag"
+            android:layout_centerVertical="true"
+            android:text="@string/sure"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/theme"
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
